@@ -1,16 +1,16 @@
 <!-- ============================ Hero Image =========================== -->
 
 <section id="hero" class="scrollme">
+<!-- <a href="/special/front/index.html"> -->
     <div class="container-fluid element-img" style="background: url(<%- theme.cover %>) no-repeat center center fixed;background-size: cover">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
                 <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
                     <div>
                         <% theme.top_saying.forEach(function(item){ %>
-                        <h2><%- item.title %></h2>
-                        <p><%- item.content %></p>
+                        <h2><font color="#E0E0E0"><%- item.title %></font></h2>
+                        <p><font color="#BEBEBE"><%- item.content %></font></p>
                         <% }); %>
-
                     </div>
                 </div>
             </div>
@@ -18,6 +18,7 @@
         </div>
         <div class="herofade beige-dk"></div>
     </div>
+<!-- </a> -->
 </section>
 
 <!-- Height spacing helper -->
@@ -28,6 +29,10 @@
 <!-- ============================ Content =========================== -->
 
 <section id="intro">
+
+<div align="center">
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=25911223&auto=1&height=66"></iframe></div>
+
     <div class="container">
         <% page.posts.each(function(post) { %>
         <div class="row">
